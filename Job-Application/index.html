@@ -10,61 +10,71 @@
 
 </head>
 <body>
-    <H1>You want to become a teacher!</H1>
-    <h4>Great! Fill out this form and start to teach from wherever you are</h4>
     <div class="container">
-        <form action="https://formspree.io/f/xayvnpay" method="POST" enctype="multipart/form-data">
-            <label>
-                Your email:
-                <input type="email" name="_replyto">
-            </label>
+        <div class="header">
+            <a href="#Home Page">Learning Gap</a>
+            <div class="nav">Eplore</div>
+            <a href="#Second Page">How we do it?</a>
+            <a href="">Log in</a>
+            <button><a href="#Sign up">Sign up for free</a></button>
+        </div>
+        <div class="main">
+            <H1>You want to become a teacher!</H1>
+            <h4>Great! Fill out this form and start to teach from wherever you are</h4>
+            <div class="formContainer">
+                <form action="https://formspree.io/f/xayvnpay" method="POST" enctype="multipart/form-data">
+                    <label>
+                        Your email:
+                        <input type="email" name="_replyto">
+                    </label>
 
-            <label>
-                A small intro about yourself:
-                <textarea name="message"></textarea>
-            </label>
+                    <label>
+                        A small intro about yourself:
+                        <textarea name="message"></textarea>
+                    </label>
 
-            <label>
-                Your resume:
-                <input type="file" name="upload">
-            </label>       
-            <!-- your other form fields go here -->
+                    <label>
+                        Your resume:
+                        <input type="file" name="upload">
+                    </label>       
+                    <!-- your other form fields go here -->
 
-            <button type="submit">Send</button>
-        </form>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+                <fieldset id="fs-frm-inputs">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                <fieldset id="fs-frm-selects">
+                    <label for="timely">1. The service provided was completed in a timely manner.</label>
+                    <select name="timely" id="timely" required="">
+                    <option value="" selected="" disabled="">Choose</option>
+                    <option value="1">Strongly Agree</option>
+                    <option value="3">Agree</option>
+                    <option value="5">Neutral</option>
+                    <option value="7">Disagree</option>
+                    <option value="9">Strongly Disagree</option>
+                    </select>
+                    <label for="timely">2. The quality of work was high in quality.</label>
+                    <select name="quality" id="quality" required="">
+                    <option value="" selected="" disabled="">Choose</option>
+                    <option value="1">Strongly Agree</option>
+                    <option value="3">Agree</option>
+                    <option value="5">Neutral</option>
+                    <option value="7">Disagree</option>
+                    <option value="9">Strongly Disagree</option>
+                    </select>
+                </fieldset>
+                <label for="message">Additional Comments</label>
+                <textarea rows="3" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor." required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+                </fieldset>
+                <input type="submit" value="Send Responses">
+            </form>
+        </div>
     </div>
-    <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
-        <fieldset id="fs-frm-inputs">
-          <label for="full-name">Full Name</label>
-          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-          <label for="email-address">Email Address</label>
-          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-          <fieldset id="fs-frm-selects">
-            <label for="timely">1. The service provided was completed in a timely manner.</label>
-            <select name="timely" id="timely" required="">
-              <option value="" selected="" disabled="">Choose</option>
-              <option value="1">Strongly Agree</option>
-              <option value="3">Agree</option>
-              <option value="5">Neutral</option>
-              <option value="7">Disagree</option>
-              <option value="9">Strongly Disagree</option>
-            </select>
-            <label for="timely">2. The quality of work was high in quality.</label>
-            <select name="quality" id="quality" required="">
-              <option value="" selected="" disabled="">Choose</option>
-              <option value="1">Strongly Agree</option>
-              <option value="3">Agree</option>
-              <option value="5">Neutral</option>
-              <option value="7">Disagree</option>
-              <option value="9">Strongly Disagree</option>
-            </select>
-          </fieldset>
-          <label for="message">Additional Comments</label>
-          <textarea rows="3" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor." required=""></textarea>
-          <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
-        </fieldset>
-        <input type="submit" value="Send Responses">
-      </form>
-    
 </body>
 </html>
