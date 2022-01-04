@@ -2,10 +2,11 @@
 
 ## What we do
 - Learn new languages
-- Have a private teacher
-- Apply to become the teacher
+- Choose your private teacher
+- Learn whenever you want
 
-### third title
+### Teachers for hire
+Are you proficient in 2 or more languages, send your resume!
 
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
