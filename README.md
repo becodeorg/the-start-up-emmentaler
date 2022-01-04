@@ -1,6 +1,9 @@
 # Learning Gap
 
-## second title
+## What we do
+- Learn new languages
+- Have a private teacher
+- Apply to become the teacher
 
 ### third title
 
