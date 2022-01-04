@@ -12,25 +12,27 @@
 <body>
     <H1>You want to become a teacher!</H1>
     <h4>Great! Fill out this form and start to teach from wherever you are</h4>
-    <form action="https://formspree.io/f/xayvnpay" method="POST" enctype="multipart/form-data">
-        <label>
-            Your email:
-            <input type="email" name="_replyto">
-        </label>
+    <div class="container">
+        <form action="https://formspree.io/f/xayvnpay" method="POST" enctype="multipart/form-data">
+            <label>
+                Your email:
+                <input type="email" name="_replyto">
+            </label>
 
-        <label>
-            A small intro about yourself:
-            <textarea name="message"></textarea>
-        </label>
+            <label>
+                A small intro about yourself:
+                <textarea name="message"></textarea>
+            </label>
 
-        <label>
-            Your resume:
-            <input type="file" name="upload">
-        </label>       
-        <!-- your other form fields go here -->
+            <label>
+                Your resume:
+                <input type="file" name="upload">
+            </label>       
+            <!-- your other form fields go here -->
 
-        <button type="submit">Send</button>
-    </form>
+            <button type="submit">Send</button>
+        </form>
+    </div>
     <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
         <fieldset id="fs-frm-inputs">
           <label for="full-name">Full Name</label>
