@@ -56,12 +56,7 @@
 }
 
 
-.formContainer {
-    margin-top: 20px;
-    width: 500px;
-    height: 400px;
-    text-align: start;
-}
+
 
 form input,
 .StripeElement {
