@@ -1,26 +1,9 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 65px;
-    margin-left: 20%;
-    margin-right: 20%;
-}
 .header {
     display: flex;
     flex-direction: row;
     height: 60px;
     border: 1px solid black;
-    
+    position: fixed;
     top: 0;
     box-shadow: 0 3px 5px 0 rgba(0,0,0,.1);
     display: flex;
@@ -37,37 +20,7 @@
   margin-right: 20px;
   width: 400px;
 }
-
-.mainTopContainer{
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;    
-    margin-bottom: 20px; 
-}
-.mainTopContainer p{
-    font-size: medium;
-    width: 50%;
-    align-self:auto;
-}
-.mainTopContainer img{
-    border: 1
-    px solid black;
-    width: 50%;
-}
-
-.formContainer {
-    margin-top: 20px;
-    width: 500px;
-    height: 400px;
-    text-align: start;
-}
-
 form input,
-form select,
-form textarea,
-form fieldset,
-form optgroup,
-form label,
 .StripeElement {
   font-family: inherit;
   font-size: 100%;
@@ -81,15 +34,9 @@ form label,
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-form label,
-form legend {
-  font-size: 0.825rem;
-  margin-bottom: 0.5rem;
-}
 /* border, padding, margin, width */
 form input,
 form select,
-form textarea,
 .StripeElement {
   box-sizing: border-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -107,7 +54,6 @@ form textarea:focus,
   outline-color: gray;
   outline-offset: -1px;
 }
-form [type="text"],
 form [type="email"],
 .StripeElement {
   width: 100%;
@@ -125,8 +71,4 @@ form [type="button"]:focus,
 form [type="submit"]:focus,
 form [type="reset"]:focus {
   outline: none;
-}
-
-form select {
-  text-transform: none;
 }
