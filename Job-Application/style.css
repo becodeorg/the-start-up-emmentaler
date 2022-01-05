@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-.container {
+.fullBox {
     display: flex;
     flex-direction: column;
     background-image: url("back-main.jpg");
