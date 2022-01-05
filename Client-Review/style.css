@@ -22,12 +22,26 @@ button {
 }
 
 /*First box*/
+#backMain {
+    background-image: url(back-main.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+h1, h2, h3 {
+    color: #164E87;
+}
+
+p {
+    color: #3D90E3;
 }
 
 .steps {
@@ -119,21 +133,36 @@ iframe {
 .footer {
     min-width: 100%;
     height: 200px;
-    border: 1px solid black;
+    background-color: #164E87;
 }
 
 .table {
+    display: flex;
+    flex-direction: row;
     margin-left: 20%;
     margin-right: 20%;
 }
 
+table {
+    margin-right: 10%;
+    margin-left: 5%;
+    color: white;
+}
 table, td, th {
     width: 100%;
-    height: 50%;
+    height: 100%;
     table-layout: fixed;
 }
 
 .table img {
     width: 150px;
     height: 150%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.table a {
+    color: white;
 }
