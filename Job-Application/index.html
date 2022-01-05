@@ -16,7 +16,7 @@
         <div class="header">            
             <a href="../index.html">Learning Gap</a>
             <a href="../Client-Review/index.html">How we do it?</a>
-            <div class="nav">Become a teacher</div>
+            <a href="../Job-Application/index.html">Become a teacher</a>
             <div class="headerFormContainer">
                 <form id="headerForm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
                     
@@ -30,31 +30,33 @@
         <div class="main">
             <H1>You want to become a teacher!</H1>
             <div class="mainTopContainer">
-                <p>Help people learn a language and earn Money for it! </br></br>Teach with passion from wherever you are. </br></br> The only thing you need is a pc and an internetconnection!</p>
+                
                 <img src="cv.jpeg" alt="">
+                <div class="formContainer">
+                    <h4>Great! Fill out this form and start to teach from wherever you are </br></h4>
+                    <form action="https://formspree.io/f/xayvnpay" method="POST" enctype="multipart/form-data">
+                        <label>
+                            Your email:
+                            <input type="email" name="_replyto" placeholder="my@emailadres.com">
+                        </label>
+    
+                        <label>
+                            A small intro about yourself:
+                            <textarea name="message" placeholder="A small intro"></textarea>
+                        </label>
+    
+                        <label>
+                            Your resume:
+                            <input type="file" name="upload">
+                        </label>       
+                        <!-- your other form fields go here -->
+    
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
             </div>
-            <h4>Great! Fill out this form and start to teach from wherever you are</h4>
-            <div class="formContainer">
-                <form action="https://formspree.io/f/xayvnpay" method="POST" enctype="multipart/form-data">
-                    <label>
-                        Your email:
-                        <input type="email" name="_replyto" placeholder="my@emailadres.com">
-                    </label>
-
-                    <label>
-                        A small intro about yourself:
-                        <textarea name="message" placeholder="A small intro"></textarea>
-                    </label>
-
-                    <label>
-                        Your resume:
-                        <input type="file" name="upload">
-                    </label>       
-                    <!-- your other form fields go here -->
-
-                    <button type="submit">Send</button>
-                </form>
-            </div>
+            
+            
             <!--<div class="formContainer">
                 <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
                     <fieldset id="fs-frm-inputs">
