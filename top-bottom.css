@@ -80,7 +80,7 @@ form [type="reset"]:focus {
   background-color: #164E87;
 }
 
-.table {
+.finalPart {
   display: flex;
   flex-direction: row;
   margin-left: 20%;
@@ -98,7 +98,7 @@ table, td, th {
   table-layout: fixed;
 }
 
-.table img {
+.finalPart img {
   width: 150px;
   height: 150%;
 }
