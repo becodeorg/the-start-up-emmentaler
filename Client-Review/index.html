@@ -64,8 +64,23 @@
             <div id="wrap">
                 <div id="maps">
                     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ymGmlEn0z5K4H4kDCT7R9_9BeWPuLu2q&ehbc=2E312F"></iframe>
-                    <!-- Contacting form starts here-->
-                </div>
+                 </div>
+                 <div id="overmaps">
+                    <div class="formContainer">
+                        <form id="fs-frm" name="assist-request" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+                            <fieldset id="fs-frm-inputs">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                            <label for="email-address">Email Address</label>
+                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                            <label for="message">How can we help?</label>
+                            <textarea rows="3" name="message" id="message" placeholder="Message here" required=""></textarea>
+                            <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+                            </fieldset>
+                            <input type="submit" value="Send Responses">
+                        </form>
+                    </div>
+                 </div>
             </div>
         </div>
 
@@ -96,7 +111,28 @@
 
         <div class="footer">
             <div class="table">
-                <!--The footer links will be done in a table-->
+                <table>
+                    <tr>
+                        <th>Our company</th>
+                        <th>Resources</th>
+                         <th>Get the APP</th>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Help</a> </td>
+                        <td><a href="#">Become an online coach</a></td>
+                        <td><a href="#"><img src="google-play.svg" alt=""></a></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><a href="#">Privacy Policy</a></td>
+                        <td><a href="#">Language level test</a></td>
+                        <td><a href="#"><img src="app-store.svg" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Term of Service</a></td>
+                        <td><a href="#">Blog</a></td>
+                    </tr>
+                </table>
             </div>
         </div>
 
