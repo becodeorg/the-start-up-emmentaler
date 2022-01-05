@@ -5,7 +5,10 @@
 .container {
     display: flex;
     flex-direction: column;
-}
+    background-image: url("back-main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
 
 .main {
     display: flex;
@@ -44,15 +47,12 @@
     margin-top: 20px;    
     margin-bottom: 20px; 
 }
-.mainTopContainer p{
-    font-size: medium;
-    width: 50%;
-    align-self:auto;
-}
+
 .mainTopContainer img{
     border: 1
     px solid black;
     width: 50%;
+    margin: 5px;
 }
 
 .formContainer {
