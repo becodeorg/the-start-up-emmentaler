@@ -74,12 +74,10 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 5% 20%;
 }
 
-/*Contact information form on top of the Google Maps*/
+/*Contact information form inside of the Google Maps*/
 #wrap {
     position: relative;
 }
@@ -103,13 +101,17 @@ iframe {
 }
 
 /*Third box -Testimonial- */
+#backBottom {
+    background-image: url(back-bottom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .bottom {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 5% 20%;
 }
 
 .testimonial {
