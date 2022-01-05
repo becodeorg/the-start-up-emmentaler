@@ -38,22 +38,14 @@
   width: 400px;
 }
 
-.mainTopContainer{
+.firstContainer{
     display: flex;
     flex-direction: row;
     margin-top: 20px;    
     margin-bottom: 20px; 
+    background-image: url("./Home-page/e-learning.webp");
 }
-.mainTopContainer p{
-    font-size: medium;
-    width: 50%;
-    align-self:auto;
-}
-.mainTopContainer img{
-    border: 1
-    px solid black;
-    width: 50%;
-}
+
 
 .formContainer {
     margin-top: 20px;
