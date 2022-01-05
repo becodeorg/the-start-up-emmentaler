@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-.container {
+.fullBox {
     display: flex;
     flex-direction: column;
 }
@@ -22,7 +22,8 @@
   margin-right: 20%;
 }
 
-.main h1, p {
+.main h1,
+.main p {
   color: white;
 }
 
