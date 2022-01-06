@@ -37,6 +37,7 @@ p {
     color: #3D90E3;
 }
 
+/**
 .steps {
     display: flex;
     flex-direction: row;
@@ -56,7 +57,7 @@ p {
 .find {
     margin: 5%;
 }
-
+*/
 /*Second box -Maps- */
 #backCenter {
     background-color: #F0F3F9;
