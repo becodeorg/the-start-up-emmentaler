@@ -6,7 +6,7 @@
     .fullBox {
         display: flex;
         flex-direction: column;
-        background-image: url("back-bottom.jpg");
+        background-image: url("images/back-bottom.jpg");
         background-repeat: repeat;
         background-size: 100%;
       }
