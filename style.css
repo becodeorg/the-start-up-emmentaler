@@ -66,11 +66,12 @@ p {
 }
 
 .bottom> h2 {
-  background-color: rgba(255, 255, 255, 0.8) 
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 5%;
 }
 
 .bottom> p {
-  background-color: rgba(255, 255, 255, 0.8) 
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .container img {

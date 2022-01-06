@@ -28,7 +28,9 @@
         background-color: rgba(255, 255, 255, 0.7);
     }
 
-    h1, h2, h5 {
+    h1,
+    h2,
+    h5 {
         color: #164E87;
     }
 
@@ -45,8 +47,9 @@
     }
 
     .row {
-        margin: 10%;
-      }
+        margin: 5%;
+    }
+
     /*Bottom container*/
     #backBottom {
         background-image: url(/Home-page/General-img/back-bottom.jpg);
