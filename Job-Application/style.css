@@ -1,3 +1,4 @@
+@media only screen and (min-width: 768px){
 * {
     padding: 0;
     margin: 0;
@@ -130,4 +131,5 @@ form [type="reset"]:focus {
 
 form select {
   text-transform: none;
+}
 }
