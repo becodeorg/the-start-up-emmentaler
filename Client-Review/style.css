@@ -1,150 +1,298 @@
-@media only screen and (min-width: 768px){
-    * {
-        padding: 0;
-        margin: 0;
-    }
 
-    /*Container starts here and interfere all the page*/
-    .fullBox {
-        display: flex;
-        flex-direction: column;
-    }
+* {
+    padding: 0;
+    margin: 0;
+}
 
-    button {
-        width: 60px;
-    }
+/*Container starts here and interfere all the page*/
+.fullBox {
+    display: flex;
+    flex-direction: column;
+}
 
-    /*First box*/
-    #backMain {
-        background-image: url(back-main.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
+button {
+    width: 60px;
+}
 
-    .main {
-        display: flex;
-        flex-direction: column;
-        text-align: center;    
-        margin-top: 16%;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
+/*First box*/
+#backMain {
+    background-image: url(back-main.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
-    h1, h2, h3 {
-        color: #164E87;
-    }
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    margin-top: 16%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
-    p {
-        color: #3D90E3;
-    }
+h1, h2, h3 {
+    color: #164E87;
+}
 
-    .steps {
-        display: flex;
-        flex-direction: row;
-    }
+p {
+    color: #3D90E3;
+}
 
-    .box {
-        width: 350px;
-        height: 500px;
-        border: 1px solid black;
-    }
+.steps {
+    display: flex;
+    flex-direction: row;
+}
 
-    .box img {
-        width: 250px;
-        height: 200px;
-    }
+.box {
+    width: 350px;
+    height: 500px;
+    border: 1px solid black;
+}
 
-    .find {
-        margin: 5%;
-    }
+.box img {
+    width: 250px;
+    height: 200px;
+}
 
-    /*Second box -Maps- */
-    #backCenter {
-        background-color: #F0F3F9;
-    }
+.find {
+    margin: 5%;
+}
 
-    .center {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 5% 20%;
-    }
+/*Second box -Maps- */
+#backCenter {
+    background-color: #F0F3F9;
+}
 
-    /*Contact information form inside of the Google Maps*/
-    #wrap {
-        position: relative;
-    }
+.center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% 20%;
+}
 
-    iframe {
-        width: 900px; 
-        height: 480px;
-    }
+/*Contact information form inside of the Google Maps*/
+#wrap {
+    position: relative;
+}
 
-    #overmaps {
-        position: absolute;
-        top: 20px;
-        left: 10px;
-        z-index: 99;
-    }
+iframe {
+    width: 900px; 
+    height: 480px;
+}
 
-    .formcontainer {
-        width: 5px;
-        height: 15px;
-        background-color: gray;
-    }
+#overmaps {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    z-index: 99;
+}
 
-    /*Third box -Testimonial- */
-    #backBottom {
-        background-image: url(back-bottom.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
+.formcontainer {
+    width: 5px;
+    height: 15px;
+    background-color: gray;
+}
 
-    .bottom {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 5% 20%;
-    }
+/*Third box -Testimonial- */
+#backBottom {
+    background-image: url(back-bottom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
-    .testimonial {
-        width: 900px;
-        height: 350px;
-        border: 1px solid black;
-    }
+.bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% 20%;
+}
 
-    .testimonial img {
-        width: 200px;
-        height: 175px;
-    }
-    /*carousel css*/
-    .pullleft{
-        width: 60%; float: left;
-        height: 400px;
-    }
-    .pullright{
-        width: 35%; float: left;
-        padding: 50px;
-    }
-    .carousel-control-prev-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233D90E3' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-    }
-    
-    .carousel-control-next-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233D90E3' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-    }
-    /*end carousel css*/
+.testimonial {
+    width: 900px;
+    height: 350px;
+    border: 1px solid black;
+}
 
-    #box1 {
-        text-align: left;
-        padding: 10px;
-    }
-    #box2 {
-        text-align: right;
-        padding: 10px;
-    }
-    #box3 {
-        text-align: left;
-        padding: 10px;
-    }
+.testimonial img {
+    width: 200px;
+    height: 175px;
+}
+/*carousel css*/
+.pullleft{
+    width: 60%; float: left;
+    height: 400px;
+}
+.pullright{
+    width: 35%; float: left;
+    padding: 50px;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233D90E3' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233D90E3' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+/*end carousel css*/
+
+#box1 {
+    text-align: left;
+    padding: 10px;
+}
+#box2 {
+    text-align: right;
+    padding: 10px;
+}
+#box3 {
+    text-align: left;
+    padding: 10px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Container starts here and interfere all the page*/
+.fullBox {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 60px;
+}
+
+/*First box*/
+#backMain {
+    background-image: url(/Client-Review/Images/back-main.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    margin-top: 16%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1, h2, h3 {
+    color: #164E87;
+}
+
+p {
+    color: #3D90E3;
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    width: 350px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.box img {
+    width: 250px;
+    height: 200px;
+}
+
+.find {
+    margin: 5%;
+}
+
+/*Second box -Maps- */
+#backCenter {
+    background-color: #F0F3F9;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% 20%;
+}
+
+/*Contact information form inside of the Google Maps*/
+#wrap {
+    position: relative;
+}
+
+iframe {
+    width: 900px; 
+    height: 480px;
+}
+
+#overmaps {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    z-index: 99;
+}
+
+.formcontainer {
+    width: 5px;
+    height: 15px;
+    background-color: gray;
+}
+
+/*Third box -Testimonial- */
+#backBottom {
+    background-image: url(back-bottom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% 20%;
+}
+
+.testimonial {
+    width: 900px;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.testimonial img {
+    width: 200px;
+    height: 175px;
+}
+/*carousel css*/
+.pullleft{
+    width: 60%; float: left;
+    height: 400px;
+}
+.pullright{
+    width: 35%; float: left;
+    padding: 50px;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233D90E3' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233D90E3' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+/*end carousel css*/
+
+#box1 {
+    text-align: left;
+    padding: 10px;
+}
+#box2 {
+    text-align: right;
+    padding: 10px;
+}
+#box3 {
+    text-align: left;
+    padding: 10px;
 }
