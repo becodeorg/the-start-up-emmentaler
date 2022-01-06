@@ -15,7 +15,7 @@ button {
 
 /*First box*/
 #backMain {
-    background-image: url(back-main.jpg);
+    background-image: url(/Client-Review/Images/back-main.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
