@@ -29,14 +29,32 @@
 }
 
 /*Second box*/
-#backCenter {
+
+.middle {
   background-color: #F0F3F9;
+  max-width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.middle img {
+  max-width: 100%;
+  height: 100%;
 }
 
-.center {
+/*Third box*/
+#backBottom {
+  background-image: url(/Home-page/General-img/back-bottom.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bottom {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 5% 20%;
 }
+
+.container img {
+  max-width: 100%;
 }
