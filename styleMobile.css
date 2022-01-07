@@ -28,7 +28,9 @@
         background-color: rgba(255, 255, 255, 0.7);
     }
 
-    h1, h2, h5 {
+    h1,
+    h2,
+    h5 {
         color: #164E87;
     }
 
@@ -59,7 +61,7 @@
     }
 
     .row {
-      margin: 10%;
+        margin: 10%;
     }
 
     /*Bottom container*/
@@ -79,10 +81,23 @@
     .container img {
         max-width: 100%;
     }
-    
+
     .bottom>.card {
         margin: 0 auto;
         float: none;
         margin-bottom: 10px
+    }
+
+    .btn:hover {
+        transform: scale(1.05);
+        background-color: white;
+        color: #164E87;
+    }
+
+    /*Animation buttons*/
+    #hover:hover {
+        transform: scale(1.05);
+        background-color: #164E87;
+        color: white;
     }
 }
