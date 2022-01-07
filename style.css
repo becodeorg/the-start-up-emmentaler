@@ -40,6 +40,13 @@
   max-width: 100%;
   height: 100%;
 }
+.middle2{
+  text-align: center;
+}
+.middle2 img{
+  max-width: 25%;
+  height: auto;
+}
 
 
 
@@ -76,4 +83,5 @@ p {
 
 .container img {
   max-width: 100%;
+}
 }
