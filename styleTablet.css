@@ -67,4 +67,17 @@
     .container img {
         max-width: 100%;
     }
+
+    /*Animation buttons*/
+    .btn:hover {
+        transform: scale(1.05);
+        background-color: white;
+        color: #164E87;
+    }
+
+    #hover:hover {
+        transform: scale(1.05);
+        background-color: #164E87;
+        color: white;
+    }
 }
