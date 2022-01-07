@@ -45,6 +45,13 @@
         height: 100%;
         text-align: center;
     }
+    .middle2{
+        text-align: center;
+      }
+      .middle2 img{
+        max-width: 25%;
+        height: auto;
+      }
 
     .row {
         margin: 10%;

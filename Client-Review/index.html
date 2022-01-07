@@ -31,7 +31,7 @@
                 <form id="headerForm" name="registration-form" accept-charset="utf-8"
                     action="https://formspree.io/f/{form_id}" method="post">
 
-                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                    <input type="email" name="replyto" id="email-address" placeholder="email@domain.tld" required="">
                     <input type="password" id="pass" name="password" placeholder="password" minlength="8" required>
                     <input type="submit" value="Login">
                 </form>
@@ -98,11 +98,14 @@
                                 <label for="full-name">Full Name</label>
                                 <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
                                 <label for="email-address">Email Address</label>
-                                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
-                                    required="">
-                                <label for="message">How can we help?</br></label>
-                                <textarea rows="3" name="message" id="message" placeholder="Message here"
+
+                                <input type="email" name="_replyto" id="email-address"
+                                    placeholder="email@domain.tld" required="">                               
+                                
+                                <textarea rows="3" name="message" id="message" placeholder="How can we help?"
+
                                     required=""></textarea>
+                                   
                                 <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
                             </fieldset>
                             <input type="submit" value="Send Responses">
@@ -152,33 +155,6 @@
                 </div>
             </div>
         </div>
-
-        <!--
-        <div class="bottom">
-            <h2>This is what our tutees says about our porgram</h2>
-            <div class="testimonial">
-                <div id="box1">
-                    <h3>Maria Rodriguez</h3>
-                    <img src="maria.jpg" alt="Maria Rodriguez">
-                    <p>"Continue learning has been my priority numnber 1, but the time is scarce now on days. I am very happy to find <b>Learning Gap</b></p>
-                </div>
-            </div>
-            <div class="testimonial">
-                <div id="box2">
-                    <h3>Dieter Gobeyn</h3>
-                    <img src="dieter.jpg" alt="Dieter Gobeyn">
-                    <p>"Continue learning has been my priority numnber 1, but the time is scarce now on days. I am very happy to find <b>Learning Gap</b></p>
-                </div>
-            </div>
-            <div class="testimonial">
-                <div id="box3">
-                    <h3>Lucy Chow</h3>
-                    <img src="lucy.jpg" alt="Lucy Chow">
-                    <p>"Continue learning has been my priority numnber 1, but the time is scarce now on days. I am very happy to find <b>Learning Gap</b></p>
-                </div>    
-            </div>
-        </div>-->
-
 
     </div>
     <div class="footer">
