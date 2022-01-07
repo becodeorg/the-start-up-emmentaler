@@ -66,23 +66,23 @@ p {
     background-color: rgba(255,255,255, 0.5);
     margin:5px;
     width: 100%;
+    justify-content:space-around;
 }
 
 iframe {
-    width: 900px; 
+    width: 150%; 
     height: 480px;
 }
-
-
-
-.formContainer{
     
-    border: 1px;
-    margin: 15px;
-    text-align: start;
-
-    
-}
+    .formcontainer form{
+        
+        width: 500px;
+        height: 15px;
+        border: 1px;
+        margin-right: 100px;
+        
+        background-color: gray;
+    }
 
 /*Third box -Testimonial- */
 #backBottom {
