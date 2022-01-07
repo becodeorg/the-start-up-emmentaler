@@ -47,11 +47,14 @@
     }
     .middle2{
         text-align: center;
-      }
-      .middle2 img{
-        max-width: 25%;
-        height: auto;
-      }
+    }
+    .middle2 img{
+    max-width: 15%;
+    height: auto;
+    }
+    .middleFormContainer{
+    display: none;
+    }
 
     .row {
         margin: 5%;

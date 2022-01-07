@@ -44,8 +44,11 @@
   text-align: center;
 }
 .middle2 img{
-  max-width: 25%;
+  max-width: 10%;
   height: auto;
+}
+.middleFormContainer{
+  display: none;
 }
 
 

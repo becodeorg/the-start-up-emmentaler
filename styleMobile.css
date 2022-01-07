@@ -44,12 +44,19 @@
         text-align: center;
     }
     .middle2{
-        text-align: center;
-      }
-      .middle2 img{
-        max-width: 25%;
-        height: auto;
-      }
+    text-align: center;
+    margin-left: 20px;
+    margin-right: auto;
+    }
+    .middle2 img{
+    max-width: 25%;
+    height: auto;
+    }
+    .middleFormContainer{
+    display: flex;
+    align-content: center;  
+    
+    }
 
     .row {
       margin: 10%;
