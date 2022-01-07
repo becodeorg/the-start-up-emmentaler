@@ -134,4 +134,11 @@
     form select {
       text-transform: none;
     }
+
+  /*Button animation*/
+  .btn:hover {
+    transform: scale(1.05);
+    background-color: white;
+    color: #164E87;
+}
 }

@@ -115,11 +115,18 @@
     height: 50px;
   }
 
+  .table a {
+    color: white;
+  }
+
+  /*Animation buttons*/
   a {
     text-decoration: none;
   }
 
-  .table a {
+  .header>a:hover {
+    transform: scale(1.05);
+    background-color: #3D90E3;
     color: white;
   }
 }

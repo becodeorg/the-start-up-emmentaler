@@ -45,15 +45,18 @@
         height: 100%;
         text-align: center;
     }
-    .middle2{
+
+    .middle2 {
         text-align: center;
     }
-    .middle2 img{
-    max-width: 15%;
-    height: auto;
+
+    .middle2 img {
+        max-width: 15%;
+        height: auto;
     }
-    .middleFormContainer{
-    display: none;
+
+    .middleFormContainer {
+        display: none;
     }
 
     .row {
@@ -78,7 +81,7 @@
         max-width: 100%;
     }
 
-    /*Animation buttons*/
+    /*Button animation*/
     .btn:hover {
         transform: scale(1.05);
         background-color: white;
