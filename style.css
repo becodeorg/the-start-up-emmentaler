@@ -8,10 +8,6 @@
     flex-direction: column;
 }
 
-body {
-  background-color: #F0F3F9 ;
-}
-
 /*First box*/
 #backMain {
   background-image: url(/Home-page/General-img/back-main.png);
@@ -45,9 +41,14 @@ body {
   height: 100%;
 }
 
-.backMiddle>.container {
-  background-color: #F0F3F9 ;
-  text-align: center;
+
+
+h1, h2, h5 {
+  color: #164E87;
+}
+
+p {
+  color: #3D90E3;
 }
 
 /*Third box*/
@@ -62,6 +63,15 @@ body {
   flex-direction: column;
   text-align: center;
   margin: 5% 20%;
+}
+
+.bottom> h2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 5%;
+}
+
+.bottom> p {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .container img {
