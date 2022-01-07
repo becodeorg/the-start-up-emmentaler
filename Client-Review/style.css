@@ -60,7 +60,11 @@ p {
 
 /*Contact information form inside of the Google Maps*/
 #wrap {
-    position: relative;
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(255,255,255, 0.5);
+    margin:5px;
+    width: 100%;
 }
 
 iframe {
@@ -68,18 +72,15 @@ iframe {
     height: 480px;
 }
 
-#overmaps {
-    position: absolute;
-    top: 20px;
-    left: 10px;
-    z-index: 99;
-}
 
-.formcontainer form{
-    width: 5px;
-    height: 15px;
+
+.formContainer{
+    
     border: 1px;
-    background-color: gray;
+    margin: 15px;
+    text-align: start;
+
+    
 }
 
 /*Third box -Testimonial- */
